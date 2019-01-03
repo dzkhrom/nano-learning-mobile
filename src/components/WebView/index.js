@@ -12,5 +12,4 @@ const ApplicationWebViewComponent = ({html, url: uri}) => (
     </View>
     );
 
-
 export default ApplicationWebViewComponent;
