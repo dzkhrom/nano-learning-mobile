@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "nano-learning-mobile",
-    "slug": "nano-learning-mobile",
+    "name": "Nano Learning",
+    "slug": "nano-learning",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": [
@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "This is mobile application for Nano learning applications",
+    "githubUrl": "https://github.com/dzkhrom/nano-learning-mobile"
   }
 }

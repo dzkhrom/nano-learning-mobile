@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
-import { WebView } from 'react-native';
+import React from 'react';
+import { WebView, View } from 'react-native';
 
-const ApplicationWebViewComponent = ({url}) => (
+
+const ApplicationWebViewComponent = ({html, url: uri}) => (
+    <View style={{flex: 1}} >
             <WebView
-                source={{uri: url}}
+                originWhitelist={['*']}
+                source={{uri}}
                 style={{marginTop: 20}}
             />
-
+    </View>
     );
+
 
 export default ApplicationWebViewComponent;
